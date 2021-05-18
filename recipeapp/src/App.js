@@ -22,6 +22,7 @@ const App = () => {
 
   const updateSearch = e => {
       setSearch(e.target.value)
+      console.log("test")
   }
 
     const getSearch = e => {
